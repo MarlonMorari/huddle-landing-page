@@ -14,10 +14,9 @@ body{
     height: 800px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    padding: 70px;
 }
 .header{
-    margin-bottom: 70px;
+    padding: 70px;
 }
 .corpo-principal{
     display: grid;
@@ -45,7 +44,6 @@ body{
     border-radius: 25px;
     border: none;
     width: 210px;
-    align-self: flex-start;
     transition: 0.3s;
 }
 .corpo-principal .texto .register:hover{
@@ -97,15 +95,15 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 10px;
-        margin-top: 10px;
     }
     .imagem{
         max-width: 300px;
-        margin-top: -25px;
+    }
+    img{
+        width: 100%;
     }
     .texto h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
         line-height: normal;
     }
@@ -118,5 +116,9 @@ body{
         font-size: 1.2rem;
         padding: 10px 90px;
     }
-    
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
